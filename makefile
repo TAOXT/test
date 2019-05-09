@@ -17,5 +17,13 @@ SelectSort.o:SelectSort.c
 SelectClean:
         rm SelectSort.o
 
+QUickSort:QUickSort.o
+        cc -o QUickSort QUickSort.o
+QUickSort.o:QUickSort.c
+        cc -c QUickSort.c
+QUickClean:
+        rm QUickSort.o
+
+
 
 
